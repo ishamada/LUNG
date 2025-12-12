@@ -104,6 +104,8 @@ library(biomaRt)
 library(ggplot2)
 library(pheatmap)
 
+#### hello ####
+
 # 2️⃣ Load data
 counts <- read.delim("~/Downloads/new task/TCGA_HNSC_Raw_Counts_Matrix.tsv", row.names = 1, check.names = FALSE)
 metadata <- read.csv("~/Downloads/new task/cases_filtered_metadata.csv", row.names = 1)  # rownames = sample IDs
